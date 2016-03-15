@@ -8,8 +8,10 @@ Hexo adaptor for [everblog](https://github.com/everblogjs/everblog).
 2. npm i everblog-adaptor-hexo --save
 3. vim index.js, add:
 
+    ```
     module.exports = require('everblog-adaptor-hexo')
+    ```
 
-4. everblog build (see [everblog](https://github.com/everblogjs/everblog))
+4. DEBUG=* everblog build (see [everblog](https://github.com/everblogjs/everblog))
 5. hexo server
 6. open http://localhost:4000/
