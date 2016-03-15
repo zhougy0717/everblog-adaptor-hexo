@@ -6,7 +6,7 @@ const moment = require('moment')
 const fm = require('front-matter')
 const entities = require('entities')
 const enml2text = require('enml2text')
-const debug = require('debug')('everblog-adaptor-spa')
+const debug = require('debug')('everblog-adaptor-hexo')
 
 module.exports = function* (data) {
   const dist = process.cwd() + '/source/_posts/'
